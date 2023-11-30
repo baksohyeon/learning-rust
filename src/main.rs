@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let a: &'static str = "Hello, world!";
+    println!("{ }", a);
 }
